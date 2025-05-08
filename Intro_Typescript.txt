@@ -1,0 +1,21 @@
+Typescript
+----------------------------------------------------
+ - Typescript is a super script of Javascript.
+
+ - Features of Typescript are
+   - Strong Typing -> means at the time of typing code and at the time of compiling our Typescript code using cmd : tsc fileName.ts it checks the error.
+   - Object oriented features -> when we are writing code in js we doing redundant code, so TS reduces the redundant code using oops concepts such as class, object, etc.
+   - Compile time errors -> while wrting our code itself ts gives error message.
+
+ - How to install ts?
+   - We need to install the Typescript package from node module globaly using npm cmd
+   - So, First from your destop right click and open terminal
+   - run this cmd -> "npm i -g typescript"
+   - check ts version using this cmd -> "tsc --version"
+   - then create a new folder on your desktop open it on the vscode.
+   - then create a file with .ts extension like "main.ts"
+   - after writing your js code or typescript code then open terminal and run  this cmd for compiling the ts file -> "tsc file_name.js"
+   - what exactly happening when compiling the ts code using the above cmd ts compiler converts the ts file into .js file llr like java compiler. Why means ts code not supported by all browsers but js code is supported by all browsers. 
+
+- Why TS convert the .ts file into .js file?
+  - TypeScript code is converted into JavaScript because web browsers and Node.js environments can only execute JavaScript. TypeScript adds features like static typing, interfaces, and classes that are not part of standard JavaScript. To run TypeScript code, it must first be transpiled into JavaScript, a process handled by the TypeScript compiler (tsc). This ensures that the code can be executed in any JavaScript runtime environment. The conversion also allows for the removal of TypeScript-specific syntax, resulting in clean, runnable JavaScript code.
